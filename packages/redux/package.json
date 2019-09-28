@@ -1,0 +1,35 @@
+{
+  "name": "@retx/redux",
+  "version": "0.1.0-beta.24",
+  "main": "lib/js/index.js",
+  "module": "lib/ts/index.js",
+  "esnext": "lib/es/index.js",
+  "typings": "lib/ts/index.d.ts",
+  "description": "Transaction manager for react/redux applications",
+  "scripts": {
+    "clean": "rm -rf lib",
+    "compile": "npm run compile:js && npm run compile:ts && npm run compile:es",
+    "compile:ts": "tsc -p ./src",
+    "compile:es": "tsc -p ./src -t esnext --outDir lib/es",
+    "compile:js": "tsc -p ./src -m commonjs --outDir lib/js"
+  },
+  "peerDependencies": {
+    "redux": "^4",
+    "react": "^16.8.0",
+    "@retx/core": "0.1.0-beta.12"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.2",
+    "react": "^16.9.0",
+    "redux": "^4.0.4",
+    "typescript": "^3.6.3",
+    "@retx/core": "^0.1.0-beta.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:olehan/retx.git",
+    "directory": "packages/redux"
+  },
+  "author": "olehan <alihan.arshabekov@gmail.com>",
+  "license": "MIT"
+}
