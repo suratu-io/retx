@@ -49,7 +49,7 @@ store.dispatch(action.fulfill(actionFulfill)); // { pending: false, state: "fulf
 ```
 
 With FC:
-```typescript
+```jsx
 // Component.tsx
 const actionStart = { type: 'ACTION_START' };
 
