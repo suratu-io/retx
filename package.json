@@ -26,6 +26,10 @@
     "react-dom": "^16.9.0",
     "typescript": "^3.6.3"
   },
-  "author": "olehan <alihan.arshabekov@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:suratu-io/retx.git"
+  },
+  "author": "Suratu.IO <support@suratu.io>",
   "license": "MIT"
 }

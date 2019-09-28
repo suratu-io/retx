@@ -27,9 +27,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:olehan/retx.git",
+    "url": "git@github.com:suratu-io/retx.git",
     "directory": "packages/redux"
   },
-  "author": "olehan <alihan.arshabekov@gmail.com>",
+  "author": "Suratu.IO <support@suratu.io>",
   "license": "MIT"
 }
