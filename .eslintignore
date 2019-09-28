@@ -1,5 +1,2 @@
-packages/core/lib
-packages/core/node_modules
-
-packages/react/lib
-packages/react/node_modules
+packages/**/lib
+packages/**/node_modules
